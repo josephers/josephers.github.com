@@ -16,6 +16,11 @@
         padding-bottom: 40px;
       }
 
+      /* Apply (proposed) CSS style. Plugin looks for elements with class named "balance-text" */
+      .balance-text {
+        text-wrap: balanced;
+      }
+
       /* Custom container */
       .container-narrow {
         margin: 0 auto;
@@ -69,7 +74,7 @@
 
       <div class="jumbotron">
         <h1>Super awesome marketing speak!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p class="lead text-balance">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         <a class="btn btn-large btn-success" href="#">Sign up today</a>
       </div>
 
@@ -112,6 +117,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
+    <script src="./assets/text-balance.min.js"></script>
 
   </body>
 </html>
